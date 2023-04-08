@@ -112,8 +112,104 @@ sns.boxplot(x="height",data=df5)
 # DATA HEAD
  
  ![Screenshot 2023-04-08 091718](https://user-images.githubusercontent.com/120567837/230701878-b602ff0e-6d39-4f7f-836d-e26897d33742.png)
+ # DATASET INFO
  
+ ![Screenshot 2023-04-08 094532](https://user-images.githubusercontent.com/120567837/230702788-5af9e29b-7b47-4f96-9af1-6fc4954829df.png)
+
  # DATASET DESCRIBE
  
- 
+ ![Screenshot 2023-04-08 092443](https://user-images.githubusercontent.com/120567837/230702673-865a89c2-ad02-4799-afd5-2399fa7de9b1.png)
 
+# NULL VALUES
+
+![Screenshot 2023-04-08 095217](https://user-images.githubusercontent.com/120567837/230702970-86add89a-d198-40a1-88a5-0f6faa2537eb.png)
+
+# DATASET SHAPE
+
+![Screenshot 2023-04-08 095535](https://user-images.githubusercontent.com/120567837/230703034-54c6301f-bb88-4e9c-a7a7-14792a3a32c9.png)
+
+# Box plot of price_per_sqft column with outliers
+
+![Screenshot 2023-04-08 095628](https://user-images.githubusercontent.com/120567837/230703064-315b1a2a-d17f-4f7f-abf4-b7016c6d5a82.png)
+
+# price_per_sqft - Dataset after removing outliers
+
+![Screenshot 2023-04-08 095910](https://user-images.githubusercontent.com/120567837/230703137-0e11313c-87f9-4e1a-8813-6d237e8514ff.png)
+
+# price_per_sqft - Shape of Dataset after removing outliers
+
+![Screenshot 2023-04-08 100204](https://user-images.githubusercontent.com/120567837/230703212-8c2ed226-72f5-467d-b98f-6d2f5d5951f6.png)
+
+# Box Plot of price_per_sqft column without outliers
+
+![Screenshot 2023-04-08 100300](https://user-images.githubusercontent.com/120567837/230703236-4477a52b-444c-41e6-aa98-0cb31a356c28.png)
+
+# Examine price_per_sqft column and use zscore of 3 to remove outliers. Dataset after removal of outlier using z score
+
+![Screenshot 2023-04-08 100407](https://user-images.githubusercontent.com/120567837/230703264-5fc4f4cc-c3f4-47ab-b1b7-1ccbd44404b7.png)
+
+# Shape of Dataset after removal of outlier using z score
+![Screenshot 2023-04-08 100531](https://user-images.githubusercontent.com/120567837/230703309-7a1948ab-3cda-4fa8-a14e-c092fbc95f21.png)
+
+# price_per_sqft column after removing outliers
+
+![Screenshot 2023-04-08 100637](https://user-images.githubusercontent.com/120567837/230703357-4bc5777c-7326-41fa-a5b4-7ef9f5440d58.png)
+
+# (4) For the data set height_weight.csv detect weight and height outliers using IQR method Dataset
+
+![Screenshot 2023-04-08 100750](https://user-images.githubusercontent.com/120567837/230703385-c2b3b3fe-1be0-48ca-8b41-f8540b3388ec.png)
+
+# Datahead
+
+![Screenshot 2023-04-08 100904](https://user-images.githubusercontent.com/120567837/230703413-eafd9339-670a-496d-b36b-5788e8cf6d24.png)
+
+# Dataset info
+
+![Screenshot 2023-04-08 101112](https://user-images.githubusercontent.com/120567837/230703467-81e0b5a8-814f-4d75-86ea-2f89779cb6d0.png)
+
+# Dataset describe
+
+![Screenshot 2023-04-08 101242](https://user-images.githubusercontent.com/120567837/230703506-6676eb25-9826-42d7-b1b5-5586a790db78.png)
+
+# Null values
+
+![Screenshot 2023-04-08 101404](https://user-images.githubusercontent.com/120567837/230703561-7ff72986-2e8d-4e2d-8f40-53edb9eee061.png)
+
+# Dataset Shape
+
+![Screenshot 2023-04-08 101515](https://user-images.githubusercontent.com/120567837/230703589-0fcb7168-4d40-454d-ab55-ac6806b8e15e.png)
+
+# Weight - With outlier
+
+![Screenshot 2023-04-08 101607](https://user-images.githubusercontent.com/120567837/230703618-cff54014-c98a-41eb-8367-4cd175ad51e2.png)
+
+# Weight - Dataset after removing Outliers using IQR method
+
+![Screenshot 2023-04-08 101754](https://user-images.githubusercontent.com/120567837/230703669-d739ba70-0a73-47c9-995d-af8e0a3fa479.png)
+
+# Weight - Shape of Dataset after removing Outliers using IQR method
+
+![Screenshot 2023-04-08 101853](https://user-images.githubusercontent.com/120567837/230703697-5af139f5-1bbf-4f9f-badb-4c7d83dcb52a.png)
+
+# Weight - Without Outliers using IQR method
+
+![Screenshot 2023-04-08 102014](https://user-images.githubusercontent.com/120567837/230703737-2ac3d9de-dd6f-4e9c-b1f4-d79f6a7c3f53.png)
+
+# Height - With outliers
+
+![Screenshot 2023-04-08 102122](https://user-images.githubusercontent.com/120567837/230703776-a4caa39e-86b6-45e0-a865-83dc069a23d4.png)
+
+# Height - Dataset after removing Outliers using IQR method
+
+![Screenshot 2023-04-08 102232](https://user-images.githubusercontent.com/120567837/230703809-b9b5eb9d-39fb-4b98-b893-2dddc2abafdc.png)
+
+# Height - Shape of Dataset after removing Outliers using IQR method
+
+![Screenshot 2023-04-08 102344](https://user-images.githubusercontent.com/120567837/230703831-50407ca8-bcd3-40cf-bf1b-2597760177f2.png)
+
+# Height - Without Outliers using IQR method
+
+![Screenshot 2023-04-08 102502](https://user-images.githubusercontent.com/120567837/230703858-b07e7a40-d4d3-45e6-ba6c-4e2f6e5ac17b.png)
+
+# RESULT
+The given datasets are read and outliers are detected and are removed using IQR and z-score methods.
